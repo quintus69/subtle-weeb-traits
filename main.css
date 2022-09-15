@@ -1,0 +1,853 @@
+
+html {
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 1px;
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+    border-radius: 4px;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c7c7c7; 
+    
+    
+  }
+
+
+body{
+    
+  background-color: black;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.ab 
+{
+position: relative;
+left: 40%;
+top: 40vh;
+text-align: center;
+
+}
+
+nav{
+
+  position: ;
+  top:0;
+
+  z-index: 99999;
+}
+.heading-1{
+
+  color:black;
+  font-size:25px;
+  text-align: center;
+  height:50px;
+  font-family: 'Poppins' ,sans-serif;
+  
+  background-color: white;
+
+
+
+}
+.heading-2{
+
+  font-size: 30px;
+  position: relative;
+  top:3px;
+  text-transform: uppercase;
+
+}
+.swt{
+
+  width:auto;
+  height:auto;
+
+  position: relative;
+ left:100px;
+ top:-50px;
+ border-radius: 50px;
+
+}
+
+.title-1{
+  color: white;
+  font-family: 'Poppins' ,sans-serif;
+  font-size:20px;
+  position: relative;
+  left:130px;
+  bottom:168px;
+  text-decoration: underline 1px;
+ 
+
+}
+.title-2{
+  color: white;
+  font-family: 'Poppins' ,sans-serif;
+  font-size:20px;
+  position: relative;
+  left:490px;
+  bottom:210px;
+  text-decoration:  underline 1px;
+ 
+
+}
+.title-3{
+  color: black;
+  font-family: 'Poppins' ,sans-serif;
+  font-size:20px;
+  position: relative;
+  left:870px;
+  bottom:252px;
+  text-decoration:  underline 1px;
+
+ 
+
+}
+.title-4{
+  color: white;
+  font-family: 'Poppins' ,sans-serif;
+  font-size:20px;
+  position: relative;
+  left:1230px;
+  bottom:295px;
+  text-decoration: underline 1px;
+ 
+
+}
+
+
+section
+{
+    height: 100vh;
+    width: auto;
+}
+
+.move{
+
+  position: relative;
+  right:20px;
+}
+
+.move-1{
+
+  position: relative;
+  right: -15px;
+}
+.move-2{
+
+  position: relative;
+  right:-18px;
+}
+
+.logo-cont
+{
+display: flex;
+flex-wrap: nowrap; ;
+position: relative;
+top: -5vh;
+right: 0vh;
+
+}
+.logo-cont > div.logo
+{
+    width: auto;
+    height: 5px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0vh;
+   justify-content: start;
+    
+}
+.weeb
+{
+    position: relative;
+    left: 0vw;
+}
+
+
+p.price
+{
+
+    font-family: 'Poppins', sans-serif;;
+    color: white;
+    position: relative;
+    top: 0vh;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+  }
+  
+  .flex-container > div.anime2,div.anime1,div.anime3,div.anime4 {
+    
+    width: 300px;
+    height:300px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  
+  }
+  .anime2 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    
+    border-radius: 5%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.anime2 img {
+    width: 100%;
+    position: relative;
+    bottom:100px;
+
+
+
+
+    transition: 0.5s all ease-in-out;
+}
+
+.anime2:hover img {
+    transform: scale(1.5);
+    opacity: 80%;
+}
+
+.anime1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+   
+}
+
+.anime1 img {
+    width: 100%;
+    position: relative;
+
+    transition: 0.5s all ease-in-out;
+}
+
+.anime1:hover img {
+    transform: scale(1.5);
+    opacity: 80%;
+}
+.anime3 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.anime3 img {
+  position: relative;
+    width: 100%;
+    bottom: 80px;
+    transition: 0.5s all ease-in-out;
+}
+
+.anime3:hover img {
+    transform: scale(1.5);
+    opacity: 80%;
+}
+
+.anime4 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5%;
+    margin: 0 auto;
+    position: relative;
+}
+    
+
+.anime4 img {
+    width: 100%;
+    position: relative;
+    transition: 0.5s all ease-in-out;
+    bottom:30px;
+}
+
+.anime4:hover img {
+    transform: scale(1.5);
+    opacity: 80%;
+}
+p.fea
+{
+
+    font-family: 'Poppins', sans-serif;;
+    color: white;
+position: relative;
+top: 0vh;
+font-size: 25px;
+text-align: center;
+
+}
+
+p.t1
+
+{
+
+font-family: 'Poppins', sans-serif;;
+position: relative;
+top: 0vh;
+font-size: 50px;
+color: #ffffff;
+text-align: center;
+top: 0vh;
+}
+
+#genre{
+    color:rgb(0, 0, 0);
+    border: 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background: white;
+    font-family: 'Poppins', sans-serif;;
+  }
+  #genre:after {
+    content:"";
+    animation: genre 5s linear infinite;
+    -webkit-animation: genre 5s linear infinite;
+  }
+  @keyframes genre {
+    0% { content:"Ecchi"; }
+    10% { content:"Action"; }
+    20% { content:"Harem"; }
+    30% { content:"Comedy"; }
+    40% { content:"Mecha"; }
+    50% { content: "Shonen"; }
+    60% { content: "seinen"; }
+    70% { content: "Mystery"; }
+    80% { content: "Hentai"; }
+    90% { content: "Drama"; }
+    100% { content: "Isekai"; }
+  }
+  p.scd
+  {
+
+    font-family: 'Poppins', sans-serif;;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 0vh;
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: rgb(255, 255, 255);
+   -webkit-text-fill-color: transparent;
+    text-align: center;
+    bottom: 0vh;
+    right: 0vw;
+    left: 0vw;
+  }
+
+  .down
+  {
+position: relative;
+top: 0vh;
+bottom: 0vh;
+right: 0vw;
+left: 0vw;
+text-align: center;
+
+
+  }
+
+  .flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    position: relative;
+    top: 0vh;
+  }
+  
+  .flex-container2 > .card1,.card2,.card3 {
+    width: 300px;
+    height:300px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  
+  }
+
+  .card1 {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    perspective: 1000px;
+    position:relative;
+    
+  }
+  
+  .cardinner1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card1:hover .cardinner1 {
+    transform: rotateY(-180deg);
+    border-radius: 5%;
+    -webkit-transform:rotateY(-180deg) ;
+  }
+  
+  .cardfront1, .cardback1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .cardfront1 {
+   
+    border-radius: 5%;
+    color: black;
+  }
+  
+  .cardback1 {
+   
+    border-radius: 5%;
+    transform: rotateY(180deg);
+  }
+  
+
+  .card2 {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    perspective: 1000px;
+    position:relative;
+    
+  }
+  
+  .cardinner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card2:hover .cardinner2 {
+    transform: rotateY(-180deg);
+    border-radius: 5%;
+    -webkit-transform:rotateY(-180deg) ;
+  }
+  
+  .cardfront2, .cardback2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .cardfront2 {
+   
+    border-radius: 5%;
+    color: black;
+  }
+  
+  .cardback2 {
+   
+    border-radius: 5%;
+    transform: rotateY(180deg);
+  }
+  
+  
+  .card3 {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    perspective: 1000px;
+    position:relative;
+    
+  }
+  
+  .cardinner3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card3:hover .cardinner3 {
+    transform: rotateY(-180deg);
+    border-radius: 5%;
+    -webkit-transform:rotateY(-180deg) ;
+  }
+  
+  .cardfront3, .cardback3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .cardfront3 {
+   
+    border-radius: 5%;
+    color: black;
+  }
+  
+  .cardback3 {
+   
+    border-radius: 5%;
+    transform: rotateY(180deg);
+  }
+
+
+p.perks
+{
+    font-family: 'Poppins', sans-serif;;
+    position: relative;
+    top: 150px;
+    font-size: 3rem;
+    color: #ffffff;
+
+    text-align: center;
+    margin-bottom: 300px;
+
+}
+p.About
+{
+    font-family: 'Poppins', sans-serif;;
+    position: relative;
+    top: 40vh;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+
+
+}
+
+
+.s4
+{
+
+  height: 50%;
+}
+
+
+
+
+
+    p.abt
+    {
+      font-family: 'Poppins', sans-serif;;
+      font-size: 35px;
+      color: white;
+      position: relative;
+      text-align: center;
+      bottom:-250px;
+    
+    }
+
+    g#Rectangle_6:hover
+    {
+        fill: white;
+    }
+    g#Rectangle_11:hover
+    {
+        fill: white;
+    }
+    g#Rectangle_12:hover
+    {
+        fill: white;
+    }
+    
+
+    .pr
+    {
+      position: relative;
+      left: 40%;
+    }
+    .f
+    {
+      position: relative;
+      left: 40%;
+    }
+    #follow-us{
+
+      position: relative;
+      color:white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      top:240px;
+      left:650px;
+
+    }
+
+
+    .center-div{
+
+      
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      position: relative;
+      top:230px;
+      height:20vh;
+      left:-19px;
+
+      
+
+    }
+
+    .center-div a{
+       height:75px;
+       width:75px;
+       background-color: white;
+       border-radius: 500px;
+       text-align: center;
+       margin:10px;
+       line-height: 1.9em;
+       text-decoration: none;
+       list-style: none;
+       font-size: 40px;
+       
+       
+
+    }
+
+    .center-div i:hover{
+
+     transform: scale(1.4);
+
+    }
+    i{
+
+      color:black;
+      width:100%;
+
+    }
+    a i{
+       transition: 0.3s all ease-in-out;  
+    }
+    
+    .down{
+         transition: 0.3s all ease-in-out;
+
+
+
+    }
+
+    .down:hover{
+      
+       transform: scale(1.2);
+
+    }
+
+     p.more
+  {
+    font-family: 'Poppins', sans-serif;;
+    color: white;
+    position: relative;
+    top: -25vh;
+    left:640px;
+    transition: 0.5s all ease-in-out;
+    font-size: 35px;
+  }
+  p.more:hover
+  {
+  letter-spacing: 10px;
+  }
+    
+
+
+
+
+@media only screen and (max-width:600px)
+
+{
+    .flex-container2
+    {
+        position: relative;
+        top: 134vh;
+        
+    }
+
+    .s4{
+height: 100%;
+
+    }
+
+    .ab
+    {
+top: 234vh;
+left: 21%;
+
+    }
+    .f
+    {
+
+      align-content: center;
+      left: 8%;
+
+
+    }
+    .pr
+    {
+left: 12%;
+top:138vh;
+
+    }
+.foot
+{
+    position: relative;
+    top: 231vh;
+height: 50vh;
+}
+p.abt {
+    font-size: 7vw;
+}
+
+    p.price {
+
+position: relative;
+top: 108vh;
+
+    }
+p.perks
+{
+    position: relative;
+    top: 220vh;
+}
+p.About
+{
+
+    position: relative;
+    top: 222vh;
+}
+
+.logo-cont
+{
+  position: relative;
+  top: -4vh;
+}
+h3 .links-1{
+
+  position: relative;
+  bottom:-500px;
+}
+
+
+}
+@media only screen and (max-width:360px)
+
+{
+    .flex-container2
+    {
+        position: relative;
+        top: 180vh;
+        
+    }
+
+    p.perks
+    {
+        position: relative;
+        top: 324vh;
+        font-size: 29px;
+    }
+    p.price {
+
+      position: relative;
+      top: 134vh;
+      
+          }
+
+.foot
+{
+    position: relative;
+    top: 366vh;
+height: 50vh;
+}
+.ab
+    {
+top: 354vh;
+left: 21%;
+
+    }
+
+    .pr
+    {
+left: 12%;
+top:190vh;
+
+    }
+}
+.follow-us{
+
+  color:white;
+  font-family: 'Poppins',sans-serif;
+  font-size:25px;
+  position: relative;
+  text-align: center;
+  top:250px;
+  right:40px;
+  
+}
+
+
+  
+  
+  
+   
